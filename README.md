@@ -29,4 +29,5 @@ A Python-based chatbot that provides university program details, merit requireme
    ChatBotEnv\Scripts\activate
 
 # Run
-python app.py
+ ```bash
+  python app.py
