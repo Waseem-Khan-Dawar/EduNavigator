@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University Merit Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .chat-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            width: 400px;
+            max-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .header {
+            background: #2575fc;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+        #chatbox {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .message {
+            margin-bottom: 10px;
+            line-height: 1.4;
+            max-width: 80%;
+            padding: 10px;
+            border-radius: 8px;
+            word-wrap: break-word;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        .user {
+            background: #d1e7ff;
+            align-self: flex-end;
+        }
+        .bot {
+            background: #f1f1f1;
+            align-self: flex-start;
+        }
+        .input-area {
+            display: flex;
+            border-top: 1px solid #ccc;
+        }
+        .input-area input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            outline: none;
+        }
+        .input-area button {
+            background: #2575fc;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+        .input-area button:hover {
+            background: #1e5ed9;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="header">EduNavigator</div>
+        <div id="chatbox"></div>
+        <div class="input-area">
+            <input type="text" id="message" placeholder="Ask something..." onkeypress="if(event.key==='Enter')sendMessage()">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        function appendMessage(sender, text, id = null) {
+            const chatbox = document.getElementById("chatbox");
+            const msg = document.createElement("div");
+            msg.className = `message ${sender}`;
+            msg.innerText = text;
+            if (id !== null) msg.dataset.id = id;
+            chatbox.appendChild(msg);
+            chatbox.scrollTop = chatbox.scrollHeight;
+        }
+
+        function updateMessage(id, newText) {
+            const chatbox = document.getElementById("chatbox");
+            const msg = [...chatbox.children].find(m => m.dataset.id == id);
+            if (msg) msg.innerText = newText;
+        }
+
+        function sendMessage() {
+            const message = document.getElementById("message").value.trim();
+            if (!message) return;
+            appendMessage("user", message);
+            document.getElementById("message").value = "";
+
+            // Show typing indicator
+            const typingId = Date.now() + Math.random();
+            appendMessage("bot", "🤖 typing...", typingId);
+
+            fetch("/chat", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ message: message })
+            })
+            .then(res => res.json())
+            .then(data => {
+                // Delay so user can see typing indicator
+                setTimeout(() => updateMessage(typingId, data.reply), 500);
+            })
+            .catch(() => {
+                setTimeout(() => updateMessage(typingId, "⚠️ Error connecting to server."), 500);
+            });
+        }
+    </script>
+</body>
+</html>

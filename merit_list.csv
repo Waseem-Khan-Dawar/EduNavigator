@@ -1,0 +1,127 @@
+University,Campus,Department,Program,Year,Minimum Merit,Maximum Merit
+KUST,Main Campus,Computing,BS,2024,85,96
+KUST,Main Campus,Electrical,BS,2024,78,93
+KUST,Main Campus,Mechanical,BS,2024,80,92
+KUST,Main Campus,Computing,MS,2024,70,88
+KUST,Main Campus,Electrical,MS,2024,68,85
+KUST,Main Campus,Mechanical,MS,2024,65,84
+KUST,Main Campus,Computing,PhD,2024,65,82
+KUST,Main Campus,Electrical,PhD,2024,62,80
+KUST,Main Campus,Mechanical,PhD,2024,60,78
+KUST,City Campus,Computing,BS,2024,82,94
+KUST,City Campus,Electrical,BS,2024,77,90
+KUST,City Campus,Mechanical,BS,2024,79,91
+KUST,City Campus,Computing,MS,2024,69,87
+KUST,City Campus,Electrical,MS,2024,66,83
+KUST,City Campus,Mechanical,MS,2024,64,82
+KUST,City Campus,Computing,PhD,2024,64,80
+KUST,City Campus,Electrical,PhD,2024,61,78
+KUST,City Campus,Mechanical,PhD,2024,60,77
+UET,Lahore,Computing,BS,2024,88,97
+UET,Lahore,Electrical,BS,2024,85,96
+UET,Lahore,Mechanical,BS,2024,90,98
+UET,Lahore,Computing,MS,2024,75,92
+UET,Lahore,Electrical,MS,2024,72,91
+UET,Lahore,Mechanical,MS,2024,78,94
+UET,Lahore,Computing,PhD,2024,70,88
+UET,Lahore,Electrical,PhD,2024,68,87
+UET,Lahore,Mechanical,PhD,2024,72,90
+UET,Taxila,Computing,BS,2024,84,95
+UET,Taxila,Electrical,BS,2024,80,92
+UET,Taxila,Mechanical,BS,2024,82,94
+UET,Taxila,Computing,MS,2024,70,88
+UET,Taxila,Electrical,MS,2024,68,87
+UET,Taxila,Mechanical,MS,2024,72,90
+UET,Taxila,Computing,PhD,2024,68,85
+UET,Taxila,Electrical,PhD,2024,66,84
+UET,Taxila,Mechanical,PhD,2024,70,88
+FAST,Islamabad,Computing,BS,2024,86,95
+FAST,Islamabad,Electrical,BS,2024,83,92
+FAST,Islamabad,Mechanical,BS,2024,81,90
+FAST,Islamabad,Computing,MS,2024,74,89
+FAST,Islamabad,Electrical,MS,2024,70,88
+FAST,Islamabad,Mechanical,MS,2024,69,87
+FAST,Islamabad,Computing,PhD,2024,68,85
+FAST,Islamabad,Electrical,PhD,2024,66,84
+FAST,Islamabad,Mechanical,PhD,2024,65,83
+FAST,Lahore,Computing,BS,2024,85,94
+FAST,Lahore,Electrical,BS,2024,82,91
+FAST,Lahore,Mechanical,BS,2024,80,89
+FAST,Lahore,Computing,MS,2024,73,88
+FAST,Lahore,Electrical,MS,2024,71,87
+FAST,Lahore,Mechanical,MS,2024,68,85
+FAST,Lahore,Computing,PhD,2024,67,84
+FAST,Lahore,Electrical,PhD,2024,65,83
+FAST,Lahore,Mechanical,PhD,2024,64,82
+GIKI,Main Campus,Computing,BS,2024,89,97
+GIKI,Main Campus,Electrical,BS,2024,87,96
+GIKI,Main Campus,Mechanical,BS,2024,90,98
+GIKI,Main Campus,Computing,MS,2024,78,92
+GIKI,Main Campus,Electrical,MS,2024,75,91
+GIKI,Main Campus,Mechanical,MS,2024,76,93
+GIKI,Main Campus,Computing,PhD,2024,72,88
+GIKI,Main Campus,Electrical,PhD,2024,70,87
+GIKI,Main Campus,Mechanical,PhD,2024,74,89
+NUST,H-12 Islamabad,Computing,BS,2024,88,98
+NUST,H-12 Islamabad,Electrical,BS,2024,85,96
+NUST,H-12 Islamabad,Mechanical,BS,2024,87,97
+NUST,H-12 Islamabad,Computing,MS,2024,77,92
+NUST,H-12 Islamabad,Electrical,MS,2024,75,91
+NUST,H-12 Islamabad,Mechanical,MS,2024,76,93
+NUST,H-12 Islamabad,Computing,PhD,2024,70,88
+NUST,H-12 Islamabad,Electrical,PhD,2024,68,86
+NUST,H-12 Islamabad,Mechanical,PhD,2024,72,90
+COMSATS,Islamabad,Computing,BS,2024,82,94
+COMSATS,Islamabad,Electrical,BS,2024,79,91
+COMSATS,Islamabad,Mechanical,BS,2024,80,92
+COMSATS,Islamabad,Computing,MS,2024,70,88
+COMSATS,Islamabad,Electrical,MS,2024,69,86
+COMSATS,Islamabad,Mechanical,MS,2024,68,85
+COMSATS,Islamabad,Computing,PhD,2024,65,82
+COMSATS,Islamabad,Electrical,PhD,2024,64,81
+COMSATS,Islamabad,Mechanical,PhD,2024,63,80
+COMSATS,Lahore,Computing,BS,2024,83,93
+COMSATS,Lahore,Electrical,BS,2024,80,90
+COMSATS,Lahore,Mechanical,BS,2024,81,91
+COMSATS,Lahore,Computing,MS,2024,71,87
+COMSATS,Lahore,Electrical,MS,2024,69,86
+COMSATS,Lahore,Mechanical,MS,2024,67,85
+COMSATS,Lahore,Computing,PhD,2024,64,81
+COMSATS,Lahore,Electrical,PhD,2024,63,80
+COMSATS,Lahore,Mechanical,PhD,2024,62,79
+PIEAS,Islamabad,Nuclear Engineering,BS,2024,88,97
+PIEAS,Islamabad,Mechanical,BS,2024,85,94
+PIEAS,Islamabad,Electrical,BS,2024,86,95
+PIEAS,Islamabad,Nuclear Engineering,MS,2024,78,92
+PIEAS,Islamabad,Mechanical,MS,2024,76,91
+PIEAS,Islamabad,Electrical,MS,2024,75,90
+PIEAS,Islamabad,Nuclear Engineering,PhD,2024,72,88
+PIEAS,Islamabad,Mechanical,PhD,2024,70,86
+PIEAS,Islamabad,Electrical,PhD,2024,69,85
+IBA,Karachi,Business Administration,BS,2024,85,96
+IBA,Karachi,Economics,BS,2024,83,94
+IBA,Karachi,Computer Science,BS,2024,80,93
+IBA,Karachi,Business Administration,MS,2024,76,90
+IBA,Karachi,Economics,MS,2024,75,89
+IBA,Karachi,Computer Science,MS,2024,74,88
+IBA,Karachi,Business Administration,PhD,2024,70,85
+IBA,Karachi,Economics,PhD,2024,69,84
+IBA,Karachi,Computer Science,PhD,2024,68,83
+QAU,Islamabad,Computer Science,BS,2024,82,94
+QAU,Islamabad,Economics,BS,2024,81,92
+QAU,Islamabad,Physics,BS,2024,80,91
+QAU,Islamabad,Computer Science,MS,2024,72,88
+QAU,Islamabad,Economics,MS,2024,71,87
+QAU,Islamabad,Physics,MS,2024,70,86
+QAU,Islamabad,Computer Science,PhD,2024,66,82
+QAU,Islamabad,Economics,PhD,2024,65,81
+QAU,Islamabad,Physics,PhD,2024,64,80
+Air University,Islamabad,Computing,BS,2024,83,93
+Air University,Islamabad,Electrical,BS,2024,82,92
+Air University,Islamabad,Aerospace,BS,2024,85,95
+Air University,Islamabad,Computing,MS,2024,74,88
+Air University,Islamabad,Electrical,MS,2024,72,87
+Air University,Islamabad,Aerospace,MS,2024,76,90
+Air University,Islamabad,Computing,PhD,2024,68,84
+Air University,Islamabad,Electrical,PhD,2024,67,83
+Air University,Islamabad,Aerospace,PhD,2024,70,85
