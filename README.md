@@ -14,7 +14,14 @@ A Python-based chatbot that provides university program details, merit requireme
 
 ## Project Structure
 
-<pre> ``` ChatBot/ ├── app.py # Main chatbot script ├── test_db.py # Test database script ├── merit_list.csv # CSV with university program data ├── merit_list.db # SQLite database (auto-created) ├── README.md # Project description ├── .gitignore # Files to ignore in GitHub └── ChatBotEnv/ # Python virtual environment (ignored) ``` </pre>
+ChatBot/ 
+├── app.py # Main chatbot script 
+├── test_db.py # Test database script 
+├── merit_list.csv # CSV with university program data 
+├── merit_list.db # SQLite database (auto-created) 
+├── README.md # Project description 
+├── .gitignore # Files to ignore in GitHub 
+└── ChatBotEnv/ # Python virtual environment (ignored)
 
 ## How to Use
 
